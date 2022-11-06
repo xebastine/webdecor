@@ -1,0 +1,90 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Kanit", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  color: white;
+  background-color: #181818;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+    margin: ;
+  padding: 20px 0;
+  color: whitesmoke;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  opacity: 0.8;
+  position: relative;
+  z-index: 9;
+  top: -140px;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+button {
+  background-color: purple; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 76%;
+  left: 46.2%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #E30B5C;
+  opacity: 0.4;
+}
+
+#uname{
+  top: 60%;
+  left: 42%;
+  position: absolute;
+  height: 39px;
+  width: 220px;
+  background-color: #101010;
+  border:2px solid mediumpurple;
+  border-radius: 5px;
+  color: white;
+}
+#uname:focus,#pass:focus{
+  border:2px solid #E30B5C;
+  outline: none;
+}
+
+html, body { height: 100%; width: 100%; margin: 0; }
+
+#pass{
+  top: 67%;
+  left: 42%;
+  position: absolute;
+  height: 39px;
+  width: 220px;
+  background-color: #101010;
+  border:2px solid mediumpurple;
+  border-radius: 5px;
+  color: white;
+}
+}
